@@ -39,7 +39,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         } else {
             cell.textLabel?.text = task.name
         }
-        cell.textLabel?.text = task.name
         return cell
     }
     // 5 create sample tasks
@@ -59,5 +58,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return [task1, task2, task3]
     }
     
+    @IBAction func plusTapped(_ sender: Any) {
+        performSegue(withIdentifier: "addSegue", sender: nil)
+    }
 }
 
