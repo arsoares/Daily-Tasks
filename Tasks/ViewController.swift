@@ -35,11 +35,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let task = tasks[indexPath.row]
         // 7 add conditional for important tasks
         if task.important {
-            cell.textLabel?.text = "❗\(task.name)"
+            cell.textLabel?.text = "❗️\(task.name)"
         } else {
             cell.textLabel?.text = task.name
         }
-        cell.textLabel?.text = task.name
         return cell
     }
     // 5 create sample tasks
