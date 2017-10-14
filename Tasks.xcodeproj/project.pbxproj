@@ -14,6 +14,7 @@
 		DE5F915F1F9131FA00CCA873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5F915E1F9131FA00CCA873 /* Assets.xcassets */; };
 		DE5F91621F9131FA00CCA873 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5F91601F9131FA00CCA873 /* LaunchScreen.storyboard */; };
 		DE5F916A1F91367C00CCA873 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F91691F91367C00CCA873 /* Task.swift */; };
+		DE5F916C1F91459E00CCA873 /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F916B1F91459E00CCA873 /* CreateTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DE5F91611F9131FA00CCA873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE5F91631F9131FA00CCA873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE5F91691F91367C00CCA873 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		DE5F916B1F91459E00CCA873 /* CreateTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CreateTaskViewController.swift; path = Tasks/CreateTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		DE5F91481F9131FA00CCA873 = {
 			isa = PBXGroup;
 			children = (
+				DE5F916B1F91459E00CCA873 /* CreateTaskViewController.swift */,
 				DE5F91531F9131FA00CCA873 /* Tasks */,
 				DE5F91521F9131FA00CCA873 /* Products */,
 			);
@@ -146,6 +149,7 @@
 				DE5F91571F9131FA00CCA873 /* ViewController.swift in Sources */,
 				DE5F91551F9131FA00CCA873 /* AppDelegate.swift in Sources */,
 				DE5F915D1F9131FA00CCA873 /* Tasks.xcdatamodeld in Sources */,
+				DE5F916C1F91459E00CCA873 /* CreateTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
